@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'Times New Roman';
+}
+h1, h2 {
+    color: #005677;
+    background-color: #C4C4C4;
+  }
+  span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    
+   
+  }
+  .central {
+      text-align: center;
+      background: #E5E5E5;
+  }
+
+ul.demo{
+    
+    list-style-type: none;
+}
+  #color{
+    color: #FFFFFF;
+    background-color: #005677;
+}
