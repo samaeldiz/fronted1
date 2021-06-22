@@ -5,8 +5,6 @@ body{
 h1, h2 {
     color: #005677;
     background-color: #C4C4C4;
-    vertical-align: middle;
-    margin-left: 30px;
   }
   span {
     font-weight: bold;
