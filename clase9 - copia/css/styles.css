@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
@@ -12,12 +11,12 @@ body {
 }
 
 
-#header-superior{
-background-color: black;
-display: flex;
-align-items: center;
-justify-content: space-between;
-color: white;
+#header-superior {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
 }
 
 #header-superior a {
@@ -25,34 +24,73 @@ color: white;
     color: white;
 }
 
-#header-centro{
-    background-color:#F0A83E;
+#header-centro {
+    background-color: #F0A83E;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     padding: 25px;
-    }
-    
-    #header-centro a {
-        text-decoration: none;
-        color: white;
-    }
+}
 
-    #banner {
-        background-image: url(/clase9/img/bowl-and-pet-daities-on-green-background\ 1.png);
-        height: 500px;
-        background-size: cover;
-    }
+#header-centro a {
+    text-decoration: none;
+    color: white;
+}
 
-    .formulario img{
-        
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-    }
+#banner {
+    background-image: url(/clase9/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 500px;
+    background-size: cover;
+}
 
-    footer {
-        margin: 0 auto;
-    }
+/* estilos del main */
+
+
+section h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    text-align: center;
+}
+
+/*para volver flex las imagenes y los contenedores*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+/*para volver centrado los enlaces*/
+.enlaces {
+    text-align: center;
+
+}
+
+.enlaces a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    /*para quitar la ralla*/
+    text-decoration: none;
+    /*para separear los enlaces*/
+    margin: 13px 13px;
+
+}
+
+.formulario img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+footer {
+    margin: 0 auto;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <main>
+
+
+<div class="container">
+  <form action="#" method="GET">
+
+    <fieldset>
+<legend>datos</legend>
+    <label for="nombre" class="etiqueta"> Nombre y apellido (obligatorio)</label>
+    <input name="name" id="nombre" type="text" required>
+
+    <label for="documento" class="etiqueta"> documento (obligatorio)</label>
+    <input name="documento" id="documento" type="number" required>
+
+    <label for="tel" class="tel" aria-placeholder="123.90122" > documento (obligatorio)</label>
+    <input name="documento" id="documento" type="number" required>
+
+    <label for="nacimiento" class="etiqueta" >Fecha</label>
+    <input name="fecha" id="nacimiento" name="nacimiento" min="1983-08-09" max="2021-07-04" >
+
+
+    <label for="nacimiento" class="etiqueta" >Genero</label>
+<label for="" class="etiqueta">
+  <input name="genero" id="r1" type="radio" value="M">Masculino </label>
+  <input name="genero" id="r2" type="radio" value="F">Femenino</label>
+  <input name="genero" id="r3" type="radio" value="N">Prefiero no decir </label>
+</label>
+
+  </fieldset>
+
+<select name="nacionalidad" id="nacionalida">
+  <option value="ARG">Argentina</option>
+  <option value="COL" selected>Colombia</option>
+</select>
+
+<label for="nacionalidad" class="etiqueta">nacionalidad</label>
+<input list="lista_pises">
+<datalist id="lista_paises">
+  <option value="ARG">Argentina</option>
+  <option value="COL" selected>Colombia</option>
+  <option value="CHIL" >Chile</option>
+</datalist>
+
+
+  </form>
+  <br>
+</div>
+<input type="submit" value="Enviar datos">
+<input type="reset" value="Limpiar">
+<br>
+<br>
+
+<section>
+
+  <label>
+    ¿Cuáles son tus hobbies?
+        </label>
+    
+    <label>
+    <input type="checkbox"
+    name="hobby" value="Pescar">Pescar
+        </label>
+        <label>
+          <input type="checkbox"
+          name="hobby" value="Correr">Correr
+              </label>
+
+              <label>
+                <input type="checkbox"
+                name="hobby" value="Yoga">Yoga
+                    </label>
+                
+                        <input type="submit" value="Enviar">
+
+</section>
+
+<section>
+
+  <label>
+    <input type="date"
+    name="fecha" value="1983-08-09" min="1983-08-09" max="2021-07-04">fecha
+        </label>
+<div>
+        <label>
+          <input type="file"
+          name="imagen" accept=".jpg, .png" multiple>imagen
+              </label>
+            </div>
+
+
+                  
+            <div>
+              <label> Nombre completo:</label>
+              <input type="text"
+              name="nombreUsuario">
+              <span class="feedback"></span>
+            </div>
+</section>
+
+<section>
+  <label>Elegí el mes de tu cumpleaños</label>
+
+<select name="mes" id="">
+<option value="1">Enero</option>
+<option value="2">Febrero</option>
+<option value="3">Marzo</option>
+<option value="4">Abril</option>
+<option value="5">Mayo</option>
+<option value="6">Junio</option>
+<option value="7">Julio</option>
+<option value="8">Agosto</option>
+<option value="9">Sectiembre</option>
+<option value="10">Octubre</option>
+<option value="11">Noviembre</option>
+<option value="12">Diciembre</option>
+</select>
+
+  <input type="submit" value="Enviar">
+</section>
+
+<div>
+  <label>Dejanos tu comentario</label>
+
+  <textarea name="textarea" rows="10" cols="30">Write something here</textarea>
+
+<button type="submit"> Enviar </button>
+<button type="reset"> reset </button>
+
+</div>
+
+<div>
+  <label for="fname">Nombre</label>
+  <input id="fname" type="text" name="nombre">
+</div>
+
+<div>
+  <fieldset>
+    <legend>Tipo de equipo</legend> <br />
+    <input id="pc" type="radio" name="rb3" value="radiobutton">
+    <label for="pc">PC</label><br />
+    <input id="linux" type="radio" name="rb3" value="radiobutton">
+    <label for="linux">Linux</label><br />
+    </fieldset>
+</div>
+
+<div>
+  <p> Elije un auto:
+    <select>
+    <optgroup label="Ferrari">
+    <option>458 Spider</option>
+    <option>F12 Berlinetta</option>
+    <option>California T</option>
+    </optgroup>
+    <optgroup label="Porsche">
+    <option>Macan</option>
+    <option>918 Spyder</option>
+    </optgroup>
+    </select>
+    </p>
+</div>
+
+<div>
+  <a href="documento2.html" tabindex="2" style="float: right;">
+    Segundo documento.</a>
+    <a href="documento1.html" tabindex="1">Primer documento.</a>
+</div>
+
+
+
+
+
+    </main>
+    <footer>
+      Todos los derechos reservados a Alfred
+    </footer>
+  </body>
+</html>
