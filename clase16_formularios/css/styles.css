@@ -177,6 +177,17 @@ input {
 
 }
 
+textarea {
+    width: 620px;
+    height: 251px;
+    margin-bottom: 1rem;
+
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+}
+
+
 select {
     width: 620px;
     height: 60px;
